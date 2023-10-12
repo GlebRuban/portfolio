@@ -1,0 +1,131 @@
+
+
+
+@media only screen and (max-device-width: 768px) {
+  .main-menu {
+    flex-direction: column;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .menu-items {
+    flex-direction: column; 
+    padding-top: 20px;
+  }
+
+  .menu-item {
+    gap: 0px;
+  }
+
+  .abouts-us-title {
+    font-size: 44px;
+  }
+
+  .about-us-section {
+    background-color: rgba(255,200,151,1)
+  }
+  
+  .abouts-us-content {
+    padding: 0 20%;
+    text-align: justify;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+
+  .we-make {
+    height: fit-content;
+    padding: 40px 0px;
+  }
+  
+  .what-we-make-title {
+    font-size: 44px;
+  }
+  
+  .what-we-make-content {
+    font-size: 20px;
+    background-color: transparent;
+    padding: 20px 20%;
+  }
+
+  .what-we-make-content-header {
+    font-size: 44px;
+  }
+
+  .what-we-make-content-text {
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .what-we-make-img {
+    display: none;
+  }
+
+  .what-we-make-section {
+    background: linear-gradient(0deg, rgba(224,137,129,1) 0%, rgba(255,200,151,1) 100%);
+  }
+
+  .what-we-make-section::after {
+    display: none;
+  }
+
+  .our-service-header {
+    font-size: 44px;
+  }
+
+  .our-service {
+    padding-top: 50px;
+  }
+
+  .our-service-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .our-service-list-item {
+    width: 100%;
+  }
+
+  .reason:nth-child(even) {
+    margin-left: 0px;
+  }
+  
+  .reason:nth-child(odd) {
+    margin-right: 0px;
+  }
+
+  .reason {
+    background-color: white;
+    width: 100%;
+  }
+
+  h1.reason-title {
+    font-size: 24px;
+  } 
+
+  .why-we-best-section {
+    background: rgba(224,137,129,1)
+  }
+
+  h1.portfolio-title {
+    font-size: 32px;
+  }
+
+  .portfolio-examples {
+    flex-direction: column;
+  }
+
+  img.portfolio-example-item {
+    width: 100%;
+  }
+
+  .portfolio-section {
+    background: rgba(224,137,129,1)
+  }
+
+  section.contact-us-section {
+    margin-top: 0px;
+  }
+}
+
